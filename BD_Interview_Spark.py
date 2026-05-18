@@ -35,3 +35,11 @@ prod_cat = spark.read.parquet(f"{base_path}\ProductCategory.parquet")
 promo = spark.read.parquet(f"{base_path}\Promotion.parquet")
 
 #Chnges in personalDev
+
+sales.printSchema()
+
+ifnull("column_name","Values")
+nullif("","Unknown")
+
+
+clean_sales
