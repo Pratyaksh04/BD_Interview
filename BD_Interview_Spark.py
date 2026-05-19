@@ -18,7 +18,7 @@
 # `project-daf89c66-e0a7-43f3-b01.BD_Interview.Promotion` promotion on sales.PromotionKey=promotion.PromotionKey;
 
 # -- total sales, total quantity, avg(sellin price),asp
-fjjf
+
 # SELECT calender.Year, calender.MonthOfYear,calender.MonthName, SUM(sales.salesAmount) as total_salesAmount, SUM(sales.salesQuantity) as total_SalesQuantity, productSubCategory.ProductSubCategory as subCategory, ROUND(SUM(sales.salesAmount)/SUM(sales.salesQuantity),2) 
 # from `project-daf89c66-e0a7-43f3-b01.BD_Interview.Sales` sales 
 # JOIN 
